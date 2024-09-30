@@ -1,6 +1,6 @@
 # PowerShell-1-D-couverte-du-langage
 
-## - cp
+## cp
 
 ### Commande pour le PowerShell:
 ```sh
@@ -9,49 +9,49 @@ Copy-Item "C:\User\Logfiles\exemple.txt" -Destination "C:\User\Bureau\exemple"
 
 Cette commande permet de copier un fichier a partir d'un document et pour le **-Destination** permet de placer le fichier a l'endroit qui nous intéresse
 
-## - rm
+## rm
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
   
-- cd
+## cd
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
 
-- mkdir
+## mkdir
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
 
-- man
+## man
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
 
-- history
+## history
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
 
-- alias
+## alias
 
 ### Commande pour le PowerShell:
 ```sh
 
 ```
 
-- cat
+## cat
 
 ### Commande pour le PowerShell:
 ```sh
