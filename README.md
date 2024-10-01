@@ -2,6 +2,11 @@
 
 ## cp
 
+### Commande pour le Unix:
+```sh
+cp User/Logfiles/exemple.txt User\Bureau\exemple
+```
+
 ### Commande pour le PowerShell:
 ```sh
 Copy-Item "C:\User\Logfiles\exemple.txt" -Destination "C:\User\Bureau\exemple"
@@ -12,24 +17,39 @@ Copy-Item "C:\User\Logfiles\exemple.txt" -Destination "C:\User\Bureau\exemple"
 
 ## rm
 
+### Commande pour le Unix:
+```sh
+rm Test/test.txt
+```
+
 ### Commande pour le PowerShell:
 ```sh
-Remove-Item C:\Test\*.*
+Remove-Item C:\Test\test.txt
 ```
 
 - La commande "Remove-Item" permet de supprimer un fichier ou un dossier
 
 ## cd
 
+### Commande pour le Unix:
+```sh
+cd Doc/Test
+```
+
 ### Commande pour le PowerShell:
 ```sh
-Set-Location -Path "HKLM:\"
+Set-Location -Path "Doc\Test"
 ```
 
 - La commande "Set-Location" permet de se déplacé dans différent dossier
 - Le "-Path" permet d'indiqué l'emplacement d'un dossier ou on veut aller
 
 ## mkdir
+
+### Commande pour le Unix:
+```sh
+mkdir logfiles
+```
 
 ### Commande pour le PowerShell:
 ```sh
@@ -43,14 +63,24 @@ New-Item -Path "c:\" -Name "logfiles" -ItemType "directory"
 
 ## man
 
-### Commande pour le PowerShell:
+### Commande pour le Unix:
 ```sh
-Get-Help ****
+man history
 ```
 
-- La commande "Get-Help" permet de définir une commande a la place du "****"
+### Commande pour le PowerShell:
+```sh
+Get-Help Get-History
+```
+
+- La commande "Get-Help" permet de définir une commande a la place du "Get-History"
 
 ## history
+
+### Commande pour le Unix:
+```sh
+history
+```
 
 ### Commande pour le PowerShell:
 ```sh
@@ -61,16 +91,26 @@ Get-History
 
 ## alias
 
-### Commande pour le PowerShell:
+### Commande pour le Unix:
 ```sh
-Set-Item -Path alias:np -Value "c:\windows\notepad.exe"
+alias exe=Test/notepad.exe
 ```
 
-- La commande "Set-Item" permet de crée un alias
-- La "-Path" permet de crée le nom d'un executable
+### Commande pour le PowerShell:
+```sh
+Set-Alias -Name np -Value Test\notepad.exe
+```
+
+- La commande "Set-Alias" permet de crée un alias
+- La "-Name" permet de crée le nom d'un executable
 - La "-Value" est l'executable de base avant la modification de l'alias
 
 ## cat
+
+### Commande pour le Unix:
+```sh
+cat text.txt
+```
 
 ### Commande pour le PowerShell:
 ```sh
