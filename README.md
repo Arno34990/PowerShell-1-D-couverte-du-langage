@@ -74,5 +74,8 @@ Set-Item -Path alias:np -Value "c:\windows\notepad.exe"
 
 ### Commande pour le PowerShell:
 ```sh
-
+Get-Content -Path .\text.txt 
 ```
+
+- La commande "Get-Content" permet de vérifier le contenu du fichier
+- Le "-Path" permet de séléctionner le fichier qui nous intéresse
